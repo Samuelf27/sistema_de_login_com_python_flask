@@ -8,8 +8,6 @@ Sistema de autenticação desenvolvido com **Python** utilizando o microframewor
 
 Este projeto tem como objetivo implementar um sistema básico de autenticação, permitindo que usuários se registrem e façam login em uma aplicação web.
 
-O Flask é amplamente utilizado por ser leve e simples para desenvolvimento web, oferecendo recursos como rotas, templates e gerenciamento de requisições :contentReference[oaicite:0]{index=0}.
-
 ---
 
 ## 🛠️ Tecnologias Utilizadas
@@ -17,7 +15,6 @@ O Flask é amplamente utilizado por ser leve e simples para desenvolvimento web,
 - 🐍 Python  
 - 🌐 Flask  
 - 🎨 HTML / CSS  
-- 🔐 Autenticação de usuários  
 - 🗂️ Templates (Jinja2)  
 
 ---
@@ -28,11 +25,12 @@ O Flask é amplamente utilizado por ser leve e simples para desenvolvimento web,
 - 🔐 Login de usuários  
 - 🚪 Logout  
 - 📄 Renderização de páginas com templates  
-- 🔒 (Opcional) Validação de dados  
 
 ---
 
 ## 📂 Estrutura do Projeto
+
+```
 sistema_de_login_com_python_flask/
 │
 ├── static/
@@ -40,4 +38,70 @@ sistema_de_login_com_python_flask/
 ├── app.py
 ├── requirements.txt
 └── README.md
+```
 
+---
+
+## ▶️ Como Executar
+
+1. Clone o repositório:
+```bash
+git clone https://github.com/Samuelf27/sistema_de_login_com_python_flask.git
+```
+
+2. Acesse a pasta do projeto:
+```bash
+cd sistema_de_login_com_python_flask
+```
+
+3. Crie um ambiente virtual:
+```bash
+python -m venv venv
+```
+
+4. Ative o ambiente:
+
+**Windows**
+```bash
+venv\Scripts\activate
+```
+
+**Linux / Mac**
+```bash
+source venv/bin/activate
+```
+
+5. Instale as dependências:
+```bash
+pip install -r requirements.txt
+```
+
+6. Execute a aplicação:
+```bash
+python app.py
+```
+
+7. Acesse no navegador:
+```
+http://localhost:5000
+```
+
+---
+
+## 🎯 Objetivo
+
+- Praticar desenvolvimento web com Flask  
+- Aprender autenticação de usuários  
+- Desenvolver um projeto para portfólio  
+
+---
+
+## 🤝 Contribuição
+
+Contribuições são bem-vindas.
+
+1. Faça um fork do projeto  
+2. Crie uma branch (`git checkout -b feature/nova-feature`)  
+3. Commit suas mudanças (`git commit -m 'Nova feature'`)  
+4. Push (`git push origin feature/nova-feature`)  
+5. Abra um Pull Request  
